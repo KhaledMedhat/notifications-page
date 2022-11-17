@@ -55,6 +55,7 @@ body {
 
 .rightside {
     color: hsl(219, 12%, 42%);
+    cursor: pointer;
 }
 
 

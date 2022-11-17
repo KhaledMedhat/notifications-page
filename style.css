@@ -14,6 +14,7 @@ body {
     background-color: hsl(0, 0%, 100%);
     padding: 30px;
     border-radius: 13px;
+   
 
 }
 
@@ -32,12 +33,13 @@ body {
     background-color:hsl(219, 85%, 26%) ;
     text-align: center;
     color: hsl(0, 0%, 100%);
+  
 }
 
 
 .leftside{
     display: flex;
-    gap: 5px;
+    gap: 10px;
     align-items: center;
 }
 

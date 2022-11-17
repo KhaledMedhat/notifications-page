@@ -138,14 +138,16 @@ img {
     background-color: hsl(205, 33%, 90%);
     border-radius: 10px;
     width: 90%;
+    margin-top: 20px;
+
     
 }
 
 .rizky-message p {
-    padding: 20px;
+    padding: 20px;  
     color: hsl(219, 12%, 42%);
+ 
 }
-
 
 .circle {
     width: 9px;

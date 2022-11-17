@@ -10,132 +10,129 @@
   <body>
     <div class="container">
       <div class="header">
-        <div style="font-size: 30px; font-weight: bold; display: flex">
-          Notifications<span class="counter"></span>
+        <div class="leftside">
+          <span><p>Notifications</p></span> <span class="counter"> 1</span>
         </div>
-        <div class="read">Mark all as read</div>
+        <div class="rightside">
+          <p>Mark all as read</p>
+        </div>
       </div>
-      <div class="notifications">
-        <div class="noti-content">
-          <div class="upper">
+      <div class="main-content">
+        <div class="notification-container">
+          <div class="notification-wrapper">
             <img src="images/avatar-mark-webber.webp" />
-            <div class="info">
-              <span
-                ><strong style="color: black">Mark Webber</strong>&nbsp;reacted
-                to your recent post
-                <span style="color: hsl(219, 85%, 26%)"
-                  ><strong>&nbsp;My first tournament today!</strong></span
-                ></span
-              >
-              <span class="time">1m ago</span>
-            </div>
+            <div class="notification-content">
+              <span class="name">Mark Webber </span>&nbsp;
+              <span class="what">reacted to your recent post</span>&nbsp;
+              <span id="what-to">My first tournament today!</span>
 
-            <div class="color point"></div>
+              <span name="ss" class="circle"></span>
+              <div class="time">
+                <span>1m ago</span>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="noti-content">
-          <div class="upper">
+        <div class="notification-container">
+          <div class="notification-wrapper">
             <img src="images/avatar-angela-gray.webp" />
-            <div class="info">
-              <span
-                ><strong style="color: hsl(219, 85%, 26%)">Angela Gray</strong>
-                &nbsp;followed you</span
-              >
-              <span class="time">5m ago</span>
+            <div class="notification-content">
+              <span class="name">Angela Gray </span>&nbsp;
+              <span class="what">followed you</span>
+              <span name="ss" class="circle"></span>
+              <div class="time">
+                <span>5m ago</span>
+              </div>
             </div>
-
-            <div class="color point"></div>
           </div>
         </div>
 
-        <div class="noti-content">
-          <div class="upper">
+        <div class="notification-container">
+          <div class="notification-wrapper">
             <img src="images/avatar-jacob-thompson.webp" />
-            <div class="info">
-              <span
-                ><strong style="color: black">Jacob Thompson</strong>&nbsp; has
-                joined your group
-                <span style="color: hsl(219, 85%, 26%)"
-                  >&nbsp;<strong>Chess Club</strong></span
-                ></span
-              >
-              <span class="time">1 day ago</span>
+            <div class="notification-content">
+              <span class="name">Jacob Thompson </span>&nbsp;
+              <span class="what">has joined your group</span>&nbsp;
+              <span id="what-to2">Chess Club</span>
+              <span name="ss" class="circle"></span>
+              <div class="time">
+                <span>1day ago</span>
+              </div>
             </div>
-
-            <div class="color point"></div>
           </div>
         </div>
 
-        <div class="noti-content">
-          <div class="upper">
+        <div class="notification-container">
+          <div class="notification-wrapper">
             <img src="images/avatar-rizky-hasanuddin.webp" />
-            <div class="info">
-              <span
-                ><strong style="color: black">Rizky Hasanuddin</strong>&nbsp;
-                sent you a private message</span
-              >
-              <span class="time">5 days ago</span>
+            <div class="notification-content">
+              <span class="name">Rizky Hasanuddin </span>&nbsp;
+              <span class="what">sent you a private message</span>
+              <span name="ss" class="circle"></span>
+              <div class="rizky-message">
+                <p>
+                  Hello, thanks for settings up the Chess Club. I've been
+                  remember for a few weeks now and I'm already having lots of
+                  fun and improving my game.
+                </p>
+              </div>
+
+              <div class="time">
+                <span>5 day ago</span>
+              </div>
             </div>
-
-            <div class="color point"></div>
-          </div>
-
-          <br />
-
-          <div class="content">
-            Hello, thanks for settings up the Chess Club. I've been remember for
-            a few weeks now and I'm already having lots of fun and improving my
-            game.
           </div>
         </div>
 
-        <div class="noti-content">
-          <div class="upper">
+        <div class="notification-container">
+          <div class="notification-wrapper">
             <img src="images/avatar-kimberly-smith.webp" />
-            <div class="info">
-              <span
-                ><strong style="color: black">Kimberly Smith</strong>&nbsp;
-                commented on your picture</span
-              >
-              <span class="time">1 week ago</span>
+            <div class="notification-content">
+              <span class="name">Kimberly Smith </span>&nbsp;
+              <span class="what">commented on your picture</span>
+              <span name="ss" class="circle"></span>
+              <div class="time">
+                <span>1 week ago</span>
+              </div>
             </div>
-
-            <div class="color point"></div>
+            <span id="message-image"
+              ><img src="images/image-chess.webp" alt=""
+            /></span>
           </div>
-          <img class="another-image" src="images/image-chess.webp" />
         </div>
 
-        <div class="noti-content">
-          <div class="upper">
+        <div class="notification-container">
+          <div class="notification-wrapper">
             <img src="images/avatar-nathan-peterson.webp" />
-            <div class="info">
-              <span
-                ><strong style="color: black">Nathan Peterson</strong>&nbsp;
-                reacted to your recent post
-                <span
-                  >&nbsp;5 end-game strategies to increase your win rate</span
-                ></span
+            <div class="notification-content">
+              <span class="name">Nathan Peterson </span>&nbsp;
+              <span class="what">reacted to your recent post</span>&nbsp;
+              <span id="what-to3"
+                >end-game strategies to increase your win rate</span
               >
-              <span class="time">1 weeks ago</span>
-            </div>
 
-            <div class="color point"></div>
+              <span name="ss" class="circle"></span>
+              <div class="time">
+                <span>2 weeks ago</span>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="noti-content">
-          <div class="upper">
+        <div class="notification-container">
+          <div class="notification-wrapper">
             <img src="images/avatar-anna-kim.webp" />
-            <div class="info">
-              <span
-                ><strong style="color: black">Anna Kim</strong>&nbsp; left the
-                group <span>Chess Club</span></span
-              >
-              <span class="time">2 weeks ago</span>
-            </div>
+            <div class="notification-content">
+              <span class="name">Anna Kim </span>&nbsp;
+              <span class="what">left the group</span>&nbsp;
+              <span id="what-to4">Chess Club</span>
 
-            <div class="color point"></div>
+              <span name="ss" class="circle"></span>
+              <div class="time">
+                <span>2 weeks ago</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
